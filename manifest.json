@@ -1,0 +1,13 @@
+{  
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0.1",
+  "description": "Shows the headers on the page",
+  "content_scripts": [
+    {
+        "matches": ["https://*.com/","https://*.org/*","file:///C:/Users/Jun/Documents/chrome-extension/test.html"],
+        "js": ["content-script.js"],
+        "run_at": "document_end"
+    }
+  ]
+}
