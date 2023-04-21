@@ -1,0 +1,22 @@
+ul.toc-list {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
+.toc-button {
+    background-color: #AAC5E2;
+    font-size: 24px;
+    color: rgb(122, 112, 112);
+    padding: 20px;
+    border: none;
+    border-radius: 0.75rem;
+    position: fixed;
+    top: 100px;
+    right: 25px;
+}
